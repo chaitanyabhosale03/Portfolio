@@ -1,0 +1,137 @@
+@media all and (max-width: 756px) {
+    .CV-page {
+        padding: 10px 50px 0px 0.5px;
+        margin: 5px 50px 0 17px !important;
+    }
+    .CV-timeline:first-of-type {
+    margin-top: 1em;
+    margin-left: 0.2em;
+}
+
+.CV-timeline:last-of-type {
+    border-left-color: rgb(0, 0, 0);
+    margin-left: 1em;
+}
+.CV-timeline {
+    position: relative;
+    margin: 0 0 0 0.5em;
+    padding-left: 1.5em;
+    border-left: solid 1px #222222;
+
+}
+    .CV-timeline:before {
+        left: -0.5em;
+    }
+    .CV-timeline-heading {
+        font-size: 1.5rem;
+    }
+    .CV-timeline-heading-title {
+        font-size: 1.2rem;
+    }
+    .CV-timeline-heading-duration {
+        font-size: 0.8rem;
+    }
+    .CV-timeline-details-item {
+        font-size: 0.8rem;
+    }
+}
+
+.CV-page\ {
+    width: auto;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.CV-secondaryHeading {
+    position: relative;
+    margin-bottom: 3.5rem;
+    margin-top: 4rem;
+    margin-left: 2.1rem;
+    text-transform: normal !important;
+}
+
+/* Grid
+****************************************************/
+
+.CV-grid {
+    display: table;
+}
+
+.CV-grid-column {
+    display: table-cell;
+}
+
+.CV-timeline {
+    position: relative;
+    margin: 0 0 0 0.5em;
+    padding-left: 1.5em;
+    border-left: solid 1px #222222;
+
+}
+
+.CV-timeline:first-of-type {
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+.CV-timeline:last-of-type {
+    border-left-color: rgb(0, 0, 0);
+    margin-left: 3em;
+}
+
+.CV-timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.5em;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: solid 1px #222222;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.CV-timeline-heading {
+    margin: 0;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+    font-weight: normal !important;
+    font-size: 2.1rem;
+    -webkit-transform: translateY(-0.1em);
+    -ms-transform: translateY(-0.1em);
+    transform: translateY(-0.1em);
+    text-transform: none !important;
+}
+
+.CV-timeline-heading-title {
+    line-height: 1;
+    color: #000000;
+    font-size: 1.8rem;
+}
+
+.CV-timeline-heading-location {
+    font-size: 0.7em;
+}
+
+.CV-timeline-heading-duration {
+    display: block;
+    font-size: 0.99rem;
+    color: #6f6f6f;
+}
+
+.CV-timeline-details {
+    display: block;
+    margin: 0;
+    padding-bottom: 2em;
+    padding: 0 0 2em 1em;
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
+}
+
+.CV-job-timeline-item {
+    font-size: 0.9rem;
+}
+
+.CV-timeline-details-item {
+    margin-bottom: 0.5em;
+    font-family: monospace;
+}

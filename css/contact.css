@@ -1,0 +1,16 @@
+.social {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.social a {
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: crimson;
+}

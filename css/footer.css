@@ -1,0 +1,22 @@
+#footer {
+    display: flex;
+    position: relative;
+    padding: 1.5rem;
+    gap: 2rem;
+    margin-left: 3vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: 0;
+}
+
+#footer span:hover {
+    color: black;
+}
+
+#footer>#footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
