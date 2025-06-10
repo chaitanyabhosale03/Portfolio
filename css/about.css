@@ -109,6 +109,7 @@ body.dark .noise {
         flex-direction: column;
         margin: 2rem 0 0
     }
+    
 }
 
 @media(max-width: 61.99em)and (orientation:portrait) {
@@ -116,12 +117,21 @@ body.dark .noise {
         flex-direction: column;
         margin: 2.5rem 0 0
     }
+    .about-right .profile-pic-wrapper .profile-pic {
+        position: absolute;
+        border-radius: 0 0 0 var(--border-radius);
+        padding-top: 0;
+        width: calc(100vw - 2 * var(--left-right-margin));
+        height: calc((100vw - 2 * var(--left-right-margin)) * 1.3333333333);
+    }
 }
 
 .about-left {
     z-index: 1;
     width: 75%;
-    padding: var(--top-margin) var(--left-right-internal-margin) var(--top-internal-margin) var(--left-right-margin)
+    padding: var(--top-margin) var(--left-right-internal-margin) var(--top-internal-margin) var(--left-right-margin);
+    padding-left: 67px;
+    padding-top: 60px;
 }
 
 .link a {
@@ -131,6 +141,12 @@ body.dark .noise {
 @media(max-width: 74.99em) {
     .about-left {
         width: 50%
+    }
+    .about-right .profile-pic-wrapper .profile-pic {
+        position: absolute;
+        border-radius: 0 0 0 var(--border-radius);
+        padding-top: 0;
+        height: calc((100vw - 2 * var(--left-right-margin)) * 1.3333333333);
     }
 }
 
@@ -202,7 +218,9 @@ body.dark .noise {
 
 @media(max-width: 74.99em) {
     .about-right .profile-pic-wrapper {
-        padding-top: 133.3333333333%
+        padding-top: 133.3333333333%;
+        position: relative;
+        border-radius: 0 0 0 var(--border-radius);
     }
 }
 
@@ -216,6 +234,7 @@ body.dark .noise {
 
 @media(max-width: 61.99em)and (orientation:portrait) {
     .about-right .profile-pic-wrapper {
+        position: relative;
         border-radius: var(--border-radius);
         padding-top: 0;
         height: calc((100vw - 2*var(--left-right-margin))*1.3333333333)
@@ -223,13 +242,16 @@ body.dark .noise {
 }
 
 .about-right .profile-pic-wrapper .profile-pic {
-    position: absolute;
+    position: absolute; 
     border-radius: 0 0 0 var(--border-radius);
-    background-color: #606887;
+    background-color: #ffffff;
     -o-object-position: 50% 25%;
     object-position: 50% 25%;
     -o-object-fit: cover;
-    object-fit: cover
+    object-fit: cover;
+    bottom: 10px; 
+    right: 0px;
+    top: 0px; 
 }
 
 @media(max-width: 47.99em) {
