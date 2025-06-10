@@ -53,6 +53,12 @@
     #prj li a {
         font-size: 1.9rem;
     }
+        
+    #prj-h1-title {
+    font-size: 2.5rem;
+    margin: 54px 0 30px 35px;  
+    font-size: xxx-large; 
+    }
 }
 
 #prj li a div {
