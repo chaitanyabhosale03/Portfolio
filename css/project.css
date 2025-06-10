@@ -32,6 +32,12 @@
     color: white !important;
     transition: all 0.5s ease;
 }
+#prj-h1-title {
+    font-size: 2.5rem;
+    margin: 100px 0 100px 20px;  
+    font-size: 5em; 
+}
+
 
 @media(max-width:768px) {
     #prj li .inner-div {
